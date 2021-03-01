@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener{
             var intent: Intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
+
         }
     }
 }
